@@ -115,3 +115,4 @@ export default (req: Request, res: Response) => {
   UriStore[key].clicked++
   res.status(301).redirect(UriStore[key].value)
 }
+Pseudo code
